@@ -1,0 +1,9 @@
+{{"<!-- begin sitelogo partial //-->" | safeHTML}}
+<div class="logo">
+<!-- The path to the image here is where it will be located after the site is generated [ie. in /images/] -->
+<!-- Write the site title as attribute to the alt tag -->
+<!-- Wrap the image in link to BaseURL, so clicking logo takes you to homepage -->
+<a href="{{ .Site.BaseURL }}"><img src="/images/logo.png" alt="{{ .Site.Title }}" /></a>
+<hr />
+</div>
+{{"<!-- end sitelogo partial //-->" | safeHTML}}

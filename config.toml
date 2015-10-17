@@ -1,0 +1,11 @@
+baseurl = "http://dev.null.com"
+languageCode = "en-ie"
+title = "HUGO SKELETON SITE"
+theme="skeletontheme"
+canonifyurls = true
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+MetaDataFormat = "toml"
+[taxonomies]
+    tag = "tags"

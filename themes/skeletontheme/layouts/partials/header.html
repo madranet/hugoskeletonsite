@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en-ie">
+{{"<!-- begin header partial //-->" | safeHTML}}
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HUGO TEST SITE">
+<meta name="author" content="Joe Bloggs">
+<!-- .Site.Title is defined in /config.toml -->
+<title> {{ .Site.Title }}</title>
+<!-- .Site.BaseURL is defined in /config.toml -->
+<!-- When building and testing with 'hugo server --watch' command it will be replaced with http://localhost:1313 -->
+<!-- Use 'hugo' command [without any flags], to build the production version of your site with the proper BaseURL -->
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/skeletontheme.css">
+</head>
+{{"<!-- end header partial //-->" | safeHTML}}

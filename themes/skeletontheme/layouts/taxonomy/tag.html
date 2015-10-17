@@ -1,0 +1,29 @@
+<!-- Include our /layouts/partials/header.html partial -->
+{{ partial "header" . }}
+{{"<!-- begin layouts > taxonomy > tag.html  template //-->" | safeHTML}}
+<body>
+<!-- Include our /layouts/partials/sitelogo.html partial -->
+{{ partial "sitelogo" . }}
+<!-- Include our /layouts/partials/navbar.html partial -->
+{{ partial "navbar" . }}
+<h1>POSTS TAGGED WITH: {{.Title }}</h1>
+<ul>
+<li>This is an individual tags page. It lists all the posts having a particular tag</li>
+<li>As 'tags' are a taxonomy, the template for this page lives in '/layouts/taxonomy/tag.html'</li>
+</ul>
+
+{{ range .Data.Pages }}
+<!-- Title, as defined in the front-matter  of /content/index.md -->
+<a href="{{.Permalink}}"><h2>{{ .Title }}</h2></a>
+<div class="content">
+<!-- Just show a summary. Not the full post -->
+{{ .Summary }}
+</div>
+{{ end }}
+<!-- This ends the loop started with 'range...' above -->
+<!-- Include our /layouts/partials/footer.html partial -->
+{{ partial "footer" . }}
+{{"<!-- end layouts > index.html template //-->" | safeHTML}}
+{{"<!-- end layouts > taxonomy > tag.html  template //-->" | safeHTML}}
+</body>
+</html>

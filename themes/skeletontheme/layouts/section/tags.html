@@ -1,0 +1,33 @@
+<!-- Include our /layouts/partials/header.html partial -->
+{{ partial "header" . }}
+{{"<!-- begin layouts > section > tags.html  template //-->" | safeHTML}}
+<body>
+<!-- Include our /layouts/partials/sitelogo.html partial -->
+{{ partial "sitelogo" . }}
+<!-- Include our /layouts/partials/navbar.html partial -->
+{{ partial "navbar" . }}
+
+<ul>
+<li>This is the blog section. It lists all posts placed under '/content/blog/'</li>
+<li>By making that '/blog' subdirectory under '/content' we've created a 'section' called 'blog'</li>
+<li>This is the template for that section. It lives at: '/skeletontheme/layouts/section/blog.html'</li>
+</ul>
+
+<!-- loop through all pages in this 'blog' section -->
+{{ range .Data.Pages }}
+<article>
+<!-- Title, as defined in the front-matter  of /content/blog/<pagename>.md -->
+<!-- Wrap the title in a link to the actual full length article -->
+<a href="{{ .Permalink }}"><h1>{{ .Title }}</h1></a>
+<div class="content">
+<!-- Just show a summary. Not the full post -->
+{{ .Summary }}
+</div>
+</article>
+{{ end }}
+<!-- This ends the loop started with 'range...' above -->
+<!-- Include our /layouts/partials/footer.html partial -->
+{{ partial "footer" . }}
+{{"<!-- end layouts > section > tags.html  template //-->" | safeHTML}}
+</body>
+</html>

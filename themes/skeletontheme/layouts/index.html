@@ -1,0 +1,28 @@
+<!-- Include our /layouts/partials/header.html partial -->
+{{ partial "header" . }}
+{{"<!-- begin layouts > index.html  template //-->" | safeHTML}}
+<body>
+<!-- Include our /layouts/partials/sitelogo.html partial -->
+{{ partial "sitelogo" . }}
+<!-- Include our /layouts/partials/navbar.html partial -->
+{{ partial "navbar" . }}
+<!-- As this is the homepage, we don't want to list all the content -->
+<!-- So we only show pages whose 'type = "homepage"' in the front-matter -->
+<!-- As there is only one [/content/index.md], that only shows its content here  -->
+<!-- Yes –it is a bit clunky! -->
+{{ range where .Data.Pages "Type" "homepage" }}
+<article>
+<!-- Title, as defined in the front-matter  of /content/index.md -->
+<h1>{{ .Title }}</h1>
+<div class="content">
+<!-- Content. is the actual content of '/content/index.md' -->
+{{ .Content }}
+</div>
+</article>
+{{ end }}
+<!-- This ends the loop started with 'range...' above -->
+<!-- Include our /layouts/partials/footer.html partial -->
+{{ partial "footer" . }}
+{{"<!-- end layouts > index.html template //-->" | safeHTML}}
+</body>
+</html>

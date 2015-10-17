@@ -1,0 +1,25 @@
+<!-- Include our /layouts/partials/header.html partial -->
+{{ partial "header" . }}
+{{"<!-- begin layouts > _default > terms.html  template //-->" | safeHTML}}
+<body>
+<!-- Include our /layouts/partials/sitelogo.html partial -->
+{{ partial "sitelogo" . }}
+<!-- Include our /layouts/partials/navbar.html partial -->
+{{ partial "navbar" . }}
+
+<ul>
+<li>This is the tags page. It lists all the tags defined in all the posts</li>
+<li>It's a bit like a section, but was automatically created by Hugo</li>
+<li>This is the template for that 'section'. It lives at: '/skeletontheme/layouts/_default/terms.html'</li>
+</ul>
+<!-- We only want to list pages where 'type = "post", as defined in front-matter -->
+{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+<li><a href="/tags/{{ $name | urlize }}" class="text-black u">{{ title $name }}</a></li>
+{{ end }}
+<!-- This ends the loop started with 'range...' above -->
+<!-- Include our /layouts/partials/footer.html partial -->
+{{ partial "footer" . }}
+{{"<!-- end layouts > index.html template //-->" | safeHTML}}
+{{"<!-- end layouts > _default > terms.html  template //-->" | safeHTML}}
+</body>
+</html>
