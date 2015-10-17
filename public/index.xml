@@ -35,6 +35,31 @@
     </item>
     
     <item>
+      <title>HOMEPAGE</title>
+      <link>http://localhost:1313/</link>
+      <pubDate>Sat, 17 Oct 2015 18:03:08 +0100</pubDate>
+      
+      <guid>http://localhost:1313/</guid>
+      <description>
+
+&lt;h3 id=&#34;this-is-the-super-home-page:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;THIS IS THE SUPER HOME PAGE&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Here is the homepage. It has &lt;code&gt;type = &amp;quot;homepage&amp;quot;&lt;/code&gt; defined in the front-matter.&lt;/li&gt;
+&lt;li&gt;The template being used to display this post on its own like this is in &lt;code&gt;/themes/skeletontheme/layouts/index.html&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt rhoncus nulla, non cursus tellus fringilla vel. Fusce porta diam vel lacus vehicula placerat. Phasellus aliquam posuere ultrices. Ut aliquet nunc velit, maximus rhoncus urna pretium id. Ut nec elit quis felis congue lobortis. Duis leo mi, tristique elementum rutrum ac, venenatis eget turpis. Nunc sollicitudin, lacus sed ultricies dapibus, erat massa sodales leo, vel mattis arcu magna ut metus. Mauris sed feugiat dolor. Mauris efficitur metus ut est vehicula, in faucibus ipsum tempus. Vivamus malesuada vestibulum leo non porttitor. Donec eros quam, maximus consequat diam molestie, elementum lacinia nisi. Vivamus lobortis at leo quis rutrum. Nunc egestas lacus a nibh sagittis, quis porta orci placerat.&lt;/p&gt;
+
+&lt;!-- The path to the image here is where it will be located after the site is generated [ie. in /images/] --&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/superimage03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nunc arcu metus, feugiat vel elit ac, blandit aliquet neque. Suspendisse accumsan, mauris ut pharetra sagittis, eros nisl lobortis ante, vel posuere metus dui dapibus nulla. Donec cursus erat vel nibh sollicitudin, id blandit augue fermentum. Duis eget lacinia ex. Ut egestas, elit sed ullamcorper finibus, orci erat ultricies ipsum, sit amet dignissim felis dui ac felis. Mauris vel consectetur sem. Fusce placerat consectetur risus eget tristique. Phasellus nec tempus velit. Aliquam elementum sem mattis arcu rutrum, vitae euismod ex rutrum. Suspendisse ullamcorper augue eu tempor convallis. Fusce ac dolor lobortis, dapibus ligula et, cursus orci. Mauris dapibus, mauris sed dictum accumsan, est lacus imperdiet lectus, et porta tortor velit sed dolor. Pellentesque malesuada ut turpis in lacinia. Curabitur sit amet maximus velit. Aenean cursus lorem non magna vestibulum, ut convallis sapien pellentesque. Quisque eget turpis in nulla placerat varius quis a justo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>TEST POST NO.3</title>
       <link>http://localhost:1313/blog/2015-10-17-testpage3/</link>
       <pubDate>Sat, 17 Oct 2015 18:03:08 +0100</pubDate>
@@ -58,31 +83,6 @@
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/superimage03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Pellentesque bibendum nisl at velit feugiat elementum. Proin faucibus, lacus a ultrices interdum, quam libero volutpat neque, euismod dignissim nisi lorem non turpis. Morbi rutrum scelerisque lorem, non euismod libero pharetra eget. Vestibulum vitae tortor eu nunc bibendum consectetur. Nam dignissim ante et diam rutrum efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque cursus massa nec vestibulum porta. Nam ultricies, odio cursus sagittis ultricies, augue mi eleifend massa, sed suscipit quam metus sed dui. Etiam aliquet pharetra felis, non sagittis velit pretium sed. Ut fermentum sed sapien sit amet aliquet. Phasellus feugiat scelerisque metus eu varius. Donec egestas ornare venenatis. Suspendisse et sapien auctor, accumsan augue at, consequat ipsum. Vivamus sit amet lectus nisl. Nam lacus lorem, porta ut hendrerit eget, cursus quis nunc. Nulla justo nunc, lacinia at semper eget, pellentesque id est.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>HOMEPAGE</title>
-      <link>http://localhost:1313/</link>
-      <pubDate>Sat, 17 Oct 2015 18:03:08 +0100</pubDate>
-      
-      <guid>http://localhost:1313/</guid>
-      <description>
-
-&lt;h3 id=&#34;this-is-the-super-home-page:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;THIS IS THE SUPER HOME PAGE&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Here is the homepage. It has &lt;code&gt;type = &amp;quot;homepage&amp;quot;&lt;/code&gt; defined in the front-matter.&lt;/li&gt;
-&lt;li&gt;The template being used to display this post on its own like this is in &lt;code&gt;/themes/skeletontheme/layouts/index.html&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt rhoncus nulla, non cursus tellus fringilla vel. Fusce porta diam vel lacus vehicula placerat. Phasellus aliquam posuere ultrices. Ut aliquet nunc velit, maximus rhoncus urna pretium id. Ut nec elit quis felis congue lobortis. Duis leo mi, tristique elementum rutrum ac, venenatis eget turpis. Nunc sollicitudin, lacus sed ultricies dapibus, erat massa sodales leo, vel mattis arcu magna ut metus. Mauris sed feugiat dolor. Mauris efficitur metus ut est vehicula, in faucibus ipsum tempus. Vivamus malesuada vestibulum leo non porttitor. Donec eros quam, maximus consequat diam molestie, elementum lacinia nisi. Vivamus lobortis at leo quis rutrum. Nunc egestas lacus a nibh sagittis, quis porta orci placerat.&lt;/p&gt;
-
-&lt;!-- The path to the image here is where it will be located after the site is generated [ie. in /images/] --&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/superimage03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Nunc arcu metus, feugiat vel elit ac, blandit aliquet neque. Suspendisse accumsan, mauris ut pharetra sagittis, eros nisl lobortis ante, vel posuere metus dui dapibus nulla. Donec cursus erat vel nibh sollicitudin, id blandit augue fermentum. Duis eget lacinia ex. Ut egestas, elit sed ullamcorper finibus, orci erat ultricies ipsum, sit amet dignissim felis dui ac felis. Mauris vel consectetur sem. Fusce placerat consectetur risus eget tristique. Phasellus nec tempus velit. Aliquam elementum sem mattis arcu rutrum, vitae euismod ex rutrum. Suspendisse ullamcorper augue eu tempor convallis. Fusce ac dolor lobortis, dapibus ligula et, cursus orci. Mauris dapibus, mauris sed dictum accumsan, est lacus imperdiet lectus, et porta tortor velit sed dolor. Pellentesque malesuada ut turpis in lacinia. Curabitur sit amet maximus velit. Aenean cursus lorem non magna vestibulum, ut convallis sapien pellentesque. Quisque eget turpis in nulla placerat varius quis a justo.&lt;/p&gt;
 </description>
     </item>
     
