@@ -11,7 +11,7 @@ This repo is intended to give complete newbies to Hugo an absolute bare-bones th
 
 ~~The thinking behind this is that there's nothing to distract you from what's relevant to the theme; everything in there is doing *\<something\>*. On the plus side, everything is commented to within an inch of its life and all pages will display some info about what template files are being used to produce them.~~
 
-UPDATE: Out of a desire to keep your keyboards free from vomit, I've now added some basic styling to the site. So whilst it's still a 'Plain Jane', it's less likely to make you want to sandpaper your retinas to get rid of the horror they have beheld.
+**UPDATE:** Out of a desire to keep your keyboards free from vomit, I've now added some basic styling to the site. So whilst it's still a 'Plain Jane', it's less likely to make you want to sandpaper your retinas to get rid of the horror they have beheld.
 
 The site produced by Hugo Skeleton Site's ```skeletontheme``` features the following:
 
