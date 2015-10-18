@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nonsense on HUGO SKELETON SITE</title>
-    <link>http://localhost:1313/tags/nonsense/</link>
+    <link>http://dev.null.com/tags/nonsense/</link>
     <description>Recent content in Nonsense on HUGO SKELETON SITE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ie</language>
     <lastBuildDate>Sat, 17 Oct 2015 18:03:08 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/nonsense/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dev.null.com/tags/nonsense/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>TEST POST NO.3</title>
-      <link>http://localhost:1313/blog/2015-10-17-testpage3/</link>
+      <link>http://dev.null.com/blog/2015-10-17-testpage3/</link>
       <pubDate>Sat, 17 Oct 2015 18:03:08 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/2015-10-17-testpage3/</guid>
+      <guid>http://dev.null.com/blog/2015-10-17-testpage3/</guid>
       <description>
 
 &lt;h3 id=&#34;test-post-no-3:6870559075a1a4e3a92fb9349469a5a8&#34;&gt;TEST POST NO.3&lt;/h3&gt;
@@ -36,7 +36,7 @@
 
 &lt;!-- The path to the image here is where it will be located after the site is generated [ie. in /images/] --&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/superimage03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dev.null.com/images/superimage03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Pellentesque bibendum nisl at velit feugiat elementum. Proin faucibus, lacus a ultrices interdum, quam libero volutpat neque, euismod dignissim nisi lorem non turpis. Morbi rutrum scelerisque lorem, non euismod libero pharetra eget. Vestibulum vitae tortor eu nunc bibendum consectetur. Nam dignissim ante et diam rutrum efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque cursus massa nec vestibulum porta. Nam ultricies, odio cursus sagittis ultricies, augue mi eleifend massa, sed suscipit quam metus sed dui. Etiam aliquet pharetra felis, non sagittis velit pretium sed. Ut fermentum sed sapien sit amet aliquet. Phasellus feugiat scelerisque metus eu varius. Donec egestas ornare venenatis. Suspendisse et sapien auctor, accumsan augue at, consequat ipsum. Vivamus sit amet lectus nisl. Nam lacus lorem, porta ut hendrerit eget, cursus quis nunc. Nulla justo nunc, lacinia at semper eget, pellentesque id est.&lt;/p&gt;
 </description>
@@ -44,10 +44,10 @@
     
     <item>
       <title>TEST POST NO.2</title>
-      <link>http://localhost:1313/blog/2015-10-16-testpage2/</link>
+      <link>http://dev.null.com/blog/2015-10-16-testpage2/</link>
       <pubDate>Fri, 16 Oct 2015 18:02:08 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/2015-10-16-testpage2/</guid>
+      <guid>http://dev.null.com/blog/2015-10-16-testpage2/</guid>
       <description>
 
 &lt;h3 id=&#34;test-post-no-2:4a451e5f82e6c8fbd8938c5d41a565fe&#34;&gt;TEST POST NO.2&lt;/h3&gt;
@@ -69,7 +69,7 @@
 
 &lt;!-- The path to the image here is where it will be located after the site is generated [ie. in /images/] --&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/superimage02.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dev.null.com/images/superimage02.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Pellentesque bibendum nisl at velit feugiat elementum. Proin faucibus, lacus a ultrices interdum, quam libero volutpat neque, euismod dignissim nisi lorem non turpis. Morbi rutrum scelerisque lorem, non euismod libero pharetra eget. Vestibulum vitae tortor eu nunc bibendum consectetur. Nam dignissim ante et diam rutrum efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque cursus massa nec vestibulum porta. Nam ultricies, odio cursus sagittis ultricies, augue mi eleifend massa, sed suscipit quam metus sed dui. Etiam aliquet pharetra felis, non sagittis velit pretium sed. Ut fermentum sed sapien sit amet aliquet. Phasellus feugiat scelerisque metus eu varius. Donec egestas ornare venenatis. Suspendisse et sapien auctor, accumsan augue at, consequat ipsum. Vivamus sit amet lectus nisl. Nam lacus lorem, porta ut hendrerit eget, cursus quis nunc. Nulla justo nunc, lacinia at semper eget, pellentesque id est.&lt;/p&gt;
 </description>
@@ -77,10 +77,10 @@
     
     <item>
       <title>TEST POST NO.1</title>
-      <link>http://localhost:1313/blog/2015-10-15-testpage/</link>
+      <link>http://dev.null.com/blog/2015-10-15-testpage/</link>
       <pubDate>Thu, 15 Oct 2015 18:00:08 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/2015-10-15-testpage/</guid>
+      <guid>http://dev.null.com/blog/2015-10-15-testpage/</guid>
       <description>
 
 &lt;h3 id=&#34;test-post-no-1:2bcb86161ea88e45e53602f35187d755&#34;&gt;TEST POST NO.1&lt;/h3&gt;
@@ -102,7 +102,7 @@
 
 &lt;!-- The path to the image here is where it will be located after the site is generated [ie. in /images/] --&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/superimage01.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dev.null.com/images/superimage01.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Nunc arcu metus, feugiat vel elit ac, blandit aliquet neque. Suspendisse accumsan, mauris ut pharetra sagittis, eros nisl lobortis ante, vel posuere metus dui dapibus nulla. Donec cursus erat vel nibh sollicitudin, id blandit augue fermentum. Duis eget lacinia ex. Ut egestas, elit sed ullamcorper finibus, orci erat ultricies ipsum, sit amet dignissim felis dui ac felis. Mauris vel consectetur sem. Fusce placerat consectetur risus eget tristique. Phasellus nec tempus velit. Aliquam elementum sem mattis arcu rutrum, vitae euismod ex rutrum. Suspendisse ullamcorper augue eu tempor convallis. Fusce ac dolor lobortis, dapibus ligula et, cursus orci. Mauris dapibus, mauris sed dictum accumsan, est lacus imperdiet lectus, et porta tortor velit sed dolor. Pellentesque malesuada ut turpis in lacinia. Curabitur sit amet maximus velit. Aenean cursus lorem non magna vestibulum, ut convallis sapien pellentesque. Quisque eget turpis in nulla placerat varius quis a justo.&lt;/p&gt;
 </description>

@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://dev.null.com/</loc>
     <lastmod>2015-10-17T18:03:08+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://dev.null.com/about/</loc>
     <lastmod>2015-10-17T18:03:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://dev.null.com/</loc>
     <lastmod>2015-10-17T18:03:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/2015-10-17-testpage3/</loc>
+    <loc>http://dev.null.com/blog/2015-10-17-testpage3/</loc>
     <lastmod>2015-10-17T18:03:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/2015-10-16-testpage2/</loc>
+    <loc>http://dev.null.com/blog/2015-10-16-testpage2/</loc>
     <lastmod>2015-10-16T18:02:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/2015-10-15-testpage/</loc>
+    <loc>http://dev.null.com/blog/2015-10-15-testpage/</loc>
     <lastmod>2015-10-15T18:00:08+01:00</lastmod>
   </url>
   

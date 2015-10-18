@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Understatement on HUGO SKELETON SITE</title>
-    <link>http://localhost:1313/tags/understatement/</link>
+    <link>http://dev.null.com/tags/understatement/</link>
     <description>Recent content in Understatement on HUGO SKELETON SITE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ie</language>
     <lastBuildDate>Sat, 17 Oct 2015 18:03:08 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/understatement/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dev.null.com/tags/understatement/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>TEST POST NO.3</title>
-      <link>http://localhost:1313/blog/2015-10-17-testpage3/</link>
+      <link>http://dev.null.com/blog/2015-10-17-testpage3/</link>
       <pubDate>Sat, 17 Oct 2015 18:03:08 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/2015-10-17-testpage3/</guid>
+      <guid>http://dev.null.com/blog/2015-10-17-testpage3/</guid>
       <description>
 
 &lt;h3 id=&#34;test-post-no-3:6870559075a1a4e3a92fb9349469a5a8&#34;&gt;TEST POST NO.3&lt;/h3&gt;
@@ -36,7 +36,7 @@
 
 &lt;!-- The path to the image here is where it will be located after the site is generated [ie. in /images/] --&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/superimage03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dev.null.com/images/superimage03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Pellentesque bibendum nisl at velit feugiat elementum. Proin faucibus, lacus a ultrices interdum, quam libero volutpat neque, euismod dignissim nisi lorem non turpis. Morbi rutrum scelerisque lorem, non euismod libero pharetra eget. Vestibulum vitae tortor eu nunc bibendum consectetur. Nam dignissim ante et diam rutrum efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque cursus massa nec vestibulum porta. Nam ultricies, odio cursus sagittis ultricies, augue mi eleifend massa, sed suscipit quam metus sed dui. Etiam aliquet pharetra felis, non sagittis velit pretium sed. Ut fermentum sed sapien sit amet aliquet. Phasellus feugiat scelerisque metus eu varius. Donec egestas ornare venenatis. Suspendisse et sapien auctor, accumsan augue at, consequat ipsum. Vivamus sit amet lectus nisl. Nam lacus lorem, porta ut hendrerit eget, cursus quis nunc. Nulla justo nunc, lacinia at semper eget, pellentesque id est.&lt;/p&gt;
 </description>
