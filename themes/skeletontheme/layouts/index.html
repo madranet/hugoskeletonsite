@@ -13,7 +13,7 @@
 {{ range where .Data.Pages "Type" "homepage" }}
 <article>
 <!-- Title, as defined in the front-matter  of /content/index.md -->
-<h1>{{ .Title }}</h1>
+<h1 class="pagetitle">{{ .Title }}</h1>
 <div class="content">
 <!-- Content. is the actual content of '/content/index.md' -->
 {{ .Content }}

@@ -6,28 +6,34 @@
 {{ partial "sitelogo" . }}
 <!-- Include our /layouts/partials/navbar.html partial -->
 {{ partial "navbar" . }}
+<article>
 <!-- TODO: Is there a more elegant way to do this? -->
 <!-- Hugo pluralises the title, as its a section. So use 'substr' to strip 'S' off the end -->
-<h1>{{ substr .Title 0 -1 }} SECTION</h1>
+<h1 class="pagetitle">{{ substr .Title 0 -1 }} Section</h1>
+
+<!-- infobox at top of page -->
+<div class="infobox">
 <ul>
-<li>This is the blog section. It lists all posts placed under '/content/blog/'</li>
-<li>By making that '/blog' subdirectory under '/content' we've created a 'section' called 'blog'</li>
-<li>This is the template for that section. It lives at: '/skeletontheme/layouts/section/blog.html'</li>
+<li>This is the blog section. It lists all posts placed under <pre>/content/blog/</pre></li>
+<li>By making that <pre>/blog</pre> subdirectory under <pre>/content</pre> we've created a <pre>section</pre> called <pre>blog</pre></li>
+<li>This is the template for that section. It lives at: <pre>/themes/skeletontheme/layouts/section/blog.html</pre></li>
 </ul>
+</div>
 
 <!-- loop through all pages in this 'blog' section -->
 {{ range .Data.Pages }}
-<article>
 <!-- Title, as defined in the front-matter  of /content/blog/<pagename>.md -->
 <!-- Wrap the title in a link to the actual full length article -->
 <a href="{{ .Permalink }}"><h1>{{ .Title }}</h1></a>
 <div class="content">
+ <p class="date">{{ .Date.Format "Mon 02 Jan 2006" }}</p>
 <!-- Just show a summary. Not the full post -->
-{{ .Summary }}
+{{ .Summary }} <a href="{{ .Permalink }}">[READ MORE...]</a>
 </div>
-</article>
+<hr />
 {{ end }}
 <!-- This ends the loop started with 'range...' above -->
+</article>
 <!-- Include our /layouts/partials/footer.html partial -->
 {{ partial "footer" . }}
 {{"<!-- end layouts > section > blog.html  template //-->" | safeHTML}}

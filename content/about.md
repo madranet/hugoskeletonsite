@@ -6,8 +6,16 @@ type = "staticpage"
 
 ### THIS IS THE SUPER ABOUT PAGE ###
 
-* Here is an example of a static page which is not the homepage. It has ```type = "staticpage"``` defined in the front-matter.
-* The template being used to display this post on its own like this is in ```/themes/skeletontheme/layouts/_default/single.html```
+<!-- I've written these in raw HTML rather than markdown, so I can style them differently to the rest of the copy -->
+<div class="infobox">
+<ul>
+<li>Here is an example of a static page which is not the homepage. It has <pre>type = "staticpage"</pre> defined in the front-matter.</li>
+<li>The template being used to display this post on its own like this is in: <pre>/themes/skeletontheme/layouts/_default/single.html</pre></li>
+</ul>
+</div>
+
+<!-- normal service is resumed! -->
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt rhoncus nulla, non cursus tellus fringilla vel. Fusce porta diam vel lacus vehicula placerat. Phasellus aliquam posuere ultrices. Ut aliquet nunc velit, maximus rhoncus urna pretium id. Ut nec elit quis felis congue lobortis. Duis leo mi, tristique elementum rutrum ac, venenatis eget turpis. Nunc sollicitudin, lacus sed ultricies dapibus, erat massa sodales leo, vel mattis arcu magna ut metus. Mauris sed feugiat dolor. Mauris efficitur metus ut est vehicula, in faucibus ipsum tempus. Vivamus malesuada vestibulum leo non porttitor. Donec eros quam, maximus consequat diam molestie, elementum lacinia nisi. Vivamus lobortis at leo quis rutrum. Nunc egestas lacus a nibh sagittis, quis porta orci placerat.
 

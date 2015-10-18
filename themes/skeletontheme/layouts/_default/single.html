@@ -6,10 +6,10 @@
 <!-- Include our /layouts/partials/navbar.html partial -->
 {{ partial "navbar" . }}
 <article>
-<h1>{{ .Title }}</h1>
+<h1 class="pagetitle">{{ .Title }}</h1>
 <!-- we only want to show the date if it's a post [ie. not on static pages] -->
 {{if eq .Type "post"}}
- <p>{{ .Date.Format "Mon 02 Jan 2006" }}</p>
+ <p class="date">{{ .Date.Format "Mon 02 Jan 2006" }}</p>
 {{else}}
 <!-- not a post so do nowt -->
 {{end}}
@@ -20,12 +20,11 @@
 {{if eq .Type "post"}}
 <!-- tags for each post are defined in the front-matter: tags = ["tag1","tag2","tag3"]-->
 <div class="tags">
-<hr />
-HERE ARE SOME TAGS FOR THIS POST:
+<b>TAGS:</b>
 <!-- loop through the array of tags -->
 {{range .Params.tags}}
 <!-- within the loop the dot '.' = the current item [in this case current tag] -->
-<a href="/tags/{{.}}">{{.}}</a>
+<a href="/tags/{{.}}">{{.}}</a>,&nbsp;
 {{end}}
 <!-- end range loop -->
 {{else}}

@@ -35,57 +35,63 @@
 
 
 | <a href="http://localhost:1313/">Home</a> |  <a href="http://localhost:1313/about">About</a> | <a href="http://localhost:1313/blog">Blog</a> |
-<hr />
 </div>
 <!-- end navbar partial //-->
 
-
-
-<h1>Blog SECTION</h1>
-<ul>
-<li>This is the blog section. It lists all posts placed under '/content/blog/'</li>
-<li>By making that '/blog' subdirectory under '/content' we've created a 'section' called 'blog'</li>
-<li>This is the template for that section. It lives at: '/skeletontheme/layouts/section/blog.html'</li>
-</ul>
-
-
-
 <article>
+
+
+<h1 class="pagetitle">Blog Section</h1>
+
+
+<div class="infobox">
+<ul>
+<li>This is the blog section. It lists all posts placed under <pre>/content/blog/</pre></li>
+<li>By making that <pre>/blog</pre> subdirectory under <pre>/content</pre> we've created a <pre>section</pre> called <pre>blog</pre></li>
+<li>This is the template for that section. It lives at: <pre>/themes/skeletontheme/layouts/section/blog.html</pre></li>
+</ul>
+</div>
+
+
+
 
 
 <a href="http://localhost:1313/blog/2015-10-17-testpage3/"><h1>TEST POST NO.3</h1></a>
 <div class="content">
+ <p class="date">Sat 17 Oct 2015</p>
 
-TEST POST NO.3 Here is a regular &ldquo;blog post&rdquo; type page. It has type = &quot;post&quot; defined in the front-matter. The template being used to display this post on its own like this is in /themes/hugotestsite/layouts/_default/single.html As we want to keep blog posts as a separate section, we put it in a subfolder: /content/blog/ Note: use &lsquo;hugo new /blog/.md&rsquo; to create new posts in this directory Nunc arcu metus, feugiat vel elit ac, blandit aliquet neque.
+TEST POST NO.3 Here is a regular "blog post" type page. It has type = "post" defined in the front-matter. The template being used to display this post on its own like this is in: /themes/skeletontheme/layouts/_default/single.html As we want to keep blog posts as a separate section, we put the markdown file in a subfolder: /content/blog/ Note: use hugo new /blog/&lt;name-of-new-post&gt;.md to create new posts in this directory Nunc arcu metus, feugiat vel elit ac, blandit aliquet neque. <a href="http://localhost:1313/blog/2015-10-17-testpage3/">[READ MORE...]</a>
 </div>
-</article>
-
-<article>
+<hr />
 
 
-<a href="http://localhost:1313/blog/2015-10-17-testpage2/"><h1>TEST POST NO.2</h1></a>
+
+<a href="http://localhost:1313/blog/2015-10-16-testpage2/"><h1>TEST POST NO.2</h1></a>
 <div class="content">
+ <p class="date">Fri 16 Oct 2015</p>
 
-TEST POST NO.2 Here is a regular &ldquo;blog post&rdquo; type page. It has type = &quot;post&quot; defined in the front-matter. The template being used to display this post on its own like this is in /themes/hugotestsite/layouts/_default/single.html As we want to keep blog posts as a separate section, we put it in a subfolder: /content/blog/ Note: use &lsquo;hugo new /blog/.md&rsquo; to create new posts in this directory Pellentesque bibendum nisl at velit feugiat elementum.
+TEST POST NO.2 Here is a regular "blog post" type page. It has type = "post" defined in the front-matter. The template being used to display this post on its own like this is in: /themes/skeletontheme/layouts/_default/single.html As we want to keep blog posts as a separate section, we put the markdown file in a subfolder: /content/blog/ Note: use hugo new /blog/&lt;name-of-new-post&gt;.md to create new posts in this directory Pellentesque bibendum nisl at velit feugiat elementum. <a href="http://localhost:1313/blog/2015-10-16-testpage2/">[READ MORE...]</a>
 </div>
-</article>
-
-<article>
+<hr />
 
 
-<a href="http://localhost:1313/blog/2015-10-17-testpage/"><h1>TEST POST NO.1</h1></a>
+
+<a href="http://localhost:1313/blog/2015-10-15-testpage/"><h1>TEST POST NO.1</h1></a>
 <div class="content">
+ <p class="date">Thu 15 Oct 2015</p>
 
-TEST POST NO.1 Here is a regular &ldquo;blog post&rdquo; type page. It has type = &quot;post&quot; defined in the front-matter. The template being used to display this post on its own like this is in /themes/hugotestsite/layouts/_default/single.html As we want to keep blog posts as a separate section, we put it in a subfolder: /content/blog/ Note: use &lsquo;hugo new /blog/.md&rsquo; to create new posts in this directory Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+TEST POST NO.1 Here is a regular "blog post" type page. It has type = "post" defined in the front-matter. The template being used to display this post on its own like this is in: /themes/skeletontheme/layouts/_default/single.html As we want to keep blog posts as a separate section, we put the markdown file in a subfolder: /content/blog/ Note: use hugo new /blog/&lt;name-of-new-post&gt;.md to create new posts in this directory Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="http://localhost:1313/blog/2015-10-15-testpage/">[READ MORE...]</a>
 </div>
+<hr />
+
+
 </article>
-
-
 
 <!-- begin footer partial //-->
 <footer>
-<hr />
-HERE IS A FOOTER
+
+
+&copy;My Super Company 2012-2015
 </footer>
 <!-- end footer partial //-->
 

@@ -19,10 +19,16 @@
 
 &lt;h3 id=&#34;this-is-the-super-about-page:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;THIS IS THE SUPER ABOUT PAGE&lt;/h3&gt;
 
+&lt;!-- I&#39;ve written these in raw HTML rather than markdown, so I can style them differently to the rest of the copy --&gt;
+
+&lt;div class=&#34;infobox&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;Here is an example of a static page which is not the homepage. It has &lt;code&gt;type = &amp;quot;staticpage&amp;quot;&lt;/code&gt; defined in the front-matter.&lt;/li&gt;
-&lt;li&gt;The template being used to display this post on its own like this is in &lt;code&gt;/themes/skeletontheme/layouts/_default/single.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Here is an example of a static page which is not the homepage. It has &lt;pre&gt;type = &#34;staticpage&#34;&lt;/pre&gt; defined in the front-matter.&lt;/li&gt;
+&lt;li&gt;The template being used to display this post on its own like this is in: &lt;pre&gt;/themes/skeletontheme/layouts/_default/single.html&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!-- normal service is resumed! --&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt rhoncus nulla, non cursus tellus fringilla vel. Fusce porta diam vel lacus vehicula placerat. Phasellus aliquam posuere ultrices. Ut aliquet nunc velit, maximus rhoncus urna pretium id. Ut nec elit quis felis congue lobortis. Duis leo mi, tristique elementum rutrum ac, venenatis eget turpis. Nunc sollicitudin, lacus sed ultricies dapibus, erat massa sodales leo, vel mattis arcu magna ut metus. Mauris sed feugiat dolor. Mauris efficitur metus ut est vehicula, in faucibus ipsum tempus. Vivamus malesuada vestibulum leo non porttitor. Donec eros quam, maximus consequat diam molestie, elementum lacinia nisi. Vivamus lobortis at leo quis rutrum. Nunc egestas lacus a nibh sagittis, quis porta orci placerat.&lt;/p&gt;
 
@@ -44,16 +50,22 @@
 
 &lt;h3 id=&#34;this-is-the-super-home-page:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;THIS IS THE SUPER HOME PAGE&lt;/h3&gt;
 
+&lt;!-- I&#39;ve written these in raw HTML rather than markdown, so I can style them differently to the rest of the copy --&gt;
+
+&lt;div class=&#34;infobox&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;Here is the homepage. It has &lt;code&gt;type = &amp;quot;homepage&amp;quot;&lt;/code&gt; defined in the front-matter.&lt;/li&gt;
-&lt;li&gt;The template being used to display this post on its own like this is in &lt;code&gt;/themes/skeletontheme/layouts/index.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Here is the homepage. It has &lt;pre&gt;type = &#34;homepage&#34;&lt;/pre&gt; defined in the front-matter.&lt;/li&gt;
+&lt;li&gt;The template being used to display this post on its own like this is in: &lt;pre&gt;/themes/skeletontheme/layouts/index.html&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!-- normal service is resumed! --&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt rhoncus nulla, non cursus tellus fringilla vel. Fusce porta diam vel lacus vehicula placerat. Phasellus aliquam posuere ultrices. Ut aliquet nunc velit, maximus rhoncus urna pretium id. Ut nec elit quis felis congue lobortis. Duis leo mi, tristique elementum rutrum ac, venenatis eget turpis. Nunc sollicitudin, lacus sed ultricies dapibus, erat massa sodales leo, vel mattis arcu magna ut metus. Mauris sed feugiat dolor. Mauris efficitur metus ut est vehicula, in faucibus ipsum tempus. Vivamus malesuada vestibulum leo non porttitor. Donec eros quam, maximus consequat diam molestie, elementum lacinia nisi. Vivamus lobortis at leo quis rutrum. Nunc egestas lacus a nibh sagittis, quis porta orci placerat.&lt;/p&gt;
 
 &lt;!-- The path to the image here is where it will be located after the site is generated [ie. in /images/] --&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/superimage03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/superimage04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Nunc arcu metus, feugiat vel elit ac, blandit aliquet neque. Suspendisse accumsan, mauris ut pharetra sagittis, eros nisl lobortis ante, vel posuere metus dui dapibus nulla. Donec cursus erat vel nibh sollicitudin, id blandit augue fermentum. Duis eget lacinia ex. Ut egestas, elit sed ullamcorper finibus, orci erat ultricies ipsum, sit amet dignissim felis dui ac felis. Mauris vel consectetur sem. Fusce placerat consectetur risus eget tristique. Phasellus nec tempus velit. Aliquam elementum sem mattis arcu rutrum, vitae euismod ex rutrum. Suspendisse ullamcorper augue eu tempor convallis. Fusce ac dolor lobortis, dapibus ligula et, cursus orci. Mauris dapibus, mauris sed dictum accumsan, est lacus imperdiet lectus, et porta tortor velit sed dolor. Pellentesque malesuada ut turpis in lacinia. Curabitur sit amet maximus velit. Aenean cursus lorem non magna vestibulum, ut convallis sapien pellentesque. Quisque eget turpis in nulla placerat varius quis a justo.&lt;/p&gt;
 </description>
@@ -69,12 +81,18 @@
 
 &lt;h3 id=&#34;test-post-no-3:6870559075a1a4e3a92fb9349469a5a8&#34;&gt;TEST POST NO.3&lt;/h3&gt;
 
+&lt;!-- I&#39;ve written these in raw HTML rather than markdown, so I can style them differently to the rest of the copy --&gt;
+
+&lt;div class=&#34;infobox&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;Here is a regular &amp;ldquo;blog post&amp;rdquo; type page. It has &lt;code&gt;type = &amp;quot;post&amp;quot;&lt;/code&gt; defined in the front-matter.&lt;/li&gt;
-&lt;li&gt;The template being used to display this post on its own like this is in &lt;code&gt;/themes/hugotestsite/layouts/_default/single.html&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;As we want to keep blog posts as a separate section, we put it in a subfolder: /content/blog/&lt;/li&gt;
-&lt;li&gt;Note: use &amp;lsquo;hugo new /blog/&lt;name-of-new-post&gt;.md&amp;rsquo; to create new posts in this directory&lt;/li&gt;
+&lt;li&gt;Here is a regular &#34;blog post&#34; type page. It has &lt;pre&gt;type = &#34;post&#34;&lt;/pre&gt; defined in the front-matter.&lt;/li&gt;
+&lt;li&gt;The template being used to display this post on its own like this is in: &lt;pre&gt;/themes/skeletontheme/layouts/_default/single.html&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;As we want to keep blog posts as a separate section, we put the markdown file in a subfolder: &lt;pre&gt;/content/blog/&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Note: use &lt;pre&gt;hugo new /blog/&amp;lt;name-of-new-post&amp;gt;.md&lt;/pre&gt; to create new posts in this directory&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!-- normal service is resumed! --&gt;
 
 &lt;p&gt;Nunc arcu metus, feugiat vel elit ac, blandit aliquet neque. Suspendisse accumsan, mauris ut pharetra sagittis, eros nisl lobortis ante, vel posuere metus dui dapibus nulla. Donec cursus erat vel nibh sollicitudin, id blandit augue fermentum. Duis eget lacinia ex. Ut egestas, elit sed ullamcorper finibus, orci erat ultricies ipsum, sit amet dignissim felis dui ac felis. Mauris vel consectetur sem. Fusce placerat consectetur risus eget tristique. Phasellus nec tempus velit. Aliquam elementum sem mattis arcu rutrum, vitae euismod ex rutrum. Suspendisse ullamcorper augue eu tempor convallis. Fusce ac dolor lobortis, dapibus ligula et, cursus orci. Mauris dapibus, mauris sed dictum accumsan, est lacus imperdiet lectus, et porta tortor velit sed dolor. Pellentesque malesuada ut turpis in lacinia. Curabitur sit amet maximus velit. Aenean cursus lorem non magna vestibulum, ut convallis sapien pellentesque. Quisque eget turpis in nulla placerat varius quis a justo.&lt;/p&gt;
 
@@ -88,20 +106,26 @@
     
     <item>
       <title>TEST POST NO.2</title>
-      <link>http://localhost:1313/blog/2015-10-17-testpage2/</link>
-      <pubDate>Sat, 17 Oct 2015 18:02:08 +0100</pubDate>
+      <link>http://localhost:1313/blog/2015-10-16-testpage2/</link>
+      <pubDate>Fri, 16 Oct 2015 18:02:08 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/2015-10-17-testpage2/</guid>
+      <guid>http://localhost:1313/blog/2015-10-16-testpage2/</guid>
       <description>
 
-&lt;h3 id=&#34;test-post-no-2:547d5fc41e911d886e9b49e48ea5de15&#34;&gt;TEST POST NO.2&lt;/h3&gt;
+&lt;h3 id=&#34;test-post-no-2:4a451e5f82e6c8fbd8938c5d41a565fe&#34;&gt;TEST POST NO.2&lt;/h3&gt;
 
+&lt;!-- I&#39;ve written these in raw HTML rather than markdown, so I can style them differently to the rest of the copy --&gt;
+
+&lt;div class=&#34;infobox&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;Here is a regular &amp;ldquo;blog post&amp;rdquo; type page. It has &lt;code&gt;type = &amp;quot;post&amp;quot;&lt;/code&gt; defined in the front-matter.&lt;/li&gt;
-&lt;li&gt;The template being used to display this post on its own like this is in &lt;code&gt;/themes/hugotestsite/layouts/_default/single.html&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;As we want to keep blog posts as a separate section, we put it in a subfolder: /content/blog/&lt;/li&gt;
-&lt;li&gt;Note: use &amp;lsquo;hugo new /blog/&lt;name-of-new-post&gt;.md&amp;rsquo; to create new posts in this directory&lt;/li&gt;
+&lt;li&gt;Here is a regular &#34;blog post&#34; type page. It has &lt;pre&gt;type = &#34;post&#34;&lt;/pre&gt; defined in the front-matter.&lt;/li&gt;
+&lt;li&gt;The template being used to display this post on its own like this is in: &lt;pre&gt;/themes/skeletontheme/layouts/_default/single.html&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;As we want to keep blog posts as a separate section, we put the markdown file in a subfolder: &lt;pre&gt;/content/blog/&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Note: use &lt;pre&gt;hugo new /blog/&amp;lt;name-of-new-post&amp;gt;.md&lt;/pre&gt; to create new posts in this directory&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!-- normal service is resumed! --&gt;
 
 &lt;p&gt;Pellentesque bibendum nisl at velit feugiat elementum. Proin faucibus, lacus a ultrices interdum, quam libero volutpat neque, euismod dignissim nisi lorem non turpis. Morbi rutrum scelerisque lorem, non euismod libero pharetra eget. Vestibulum vitae tortor eu nunc bibendum consectetur. Nam dignissim ante et diam rutrum efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque cursus massa nec vestibulum porta. Nam ultricies, odio cursus sagittis ultricies, augue mi eleifend massa, sed suscipit quam metus sed dui. Etiam aliquet pharetra felis, non sagittis velit pretium sed. Ut fermentum sed sapien sit amet aliquet. Phasellus feugiat scelerisque metus eu varius. Donec egestas ornare venenatis. Suspendisse et sapien auctor, accumsan augue at, consequat ipsum. Vivamus sit amet lectus nisl. Nam lacus lorem, porta ut hendrerit eget, cursus quis nunc. Nulla justo nunc, lacinia at semper eget, pellentesque id est.&lt;/p&gt;
 
@@ -115,20 +139,26 @@
     
     <item>
       <title>TEST POST NO.1</title>
-      <link>http://localhost:1313/blog/2015-10-17-testpage/</link>
-      <pubDate>Sat, 17 Oct 2015 18:00:08 +0100</pubDate>
+      <link>http://localhost:1313/blog/2015-10-15-testpage/</link>
+      <pubDate>Thu, 15 Oct 2015 18:00:08 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/2015-10-17-testpage/</guid>
+      <guid>http://localhost:1313/blog/2015-10-15-testpage/</guid>
       <description>
 
-&lt;h3 id=&#34;test-post-no-1:cb7080f7780a7b0585b9794b4f018241&#34;&gt;TEST POST NO.1&lt;/h3&gt;
+&lt;h3 id=&#34;test-post-no-1:2bcb86161ea88e45e53602f35187d755&#34;&gt;TEST POST NO.1&lt;/h3&gt;
 
+&lt;!-- I&#39;ve written these in raw HTML rather than markdown, so I can style them differently to the rest of the copy --&gt;
+
+&lt;div class=&#34;infobox&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;Here is a regular &amp;ldquo;blog post&amp;rdquo; type page. It has &lt;code&gt;type = &amp;quot;post&amp;quot;&lt;/code&gt; defined in the front-matter.&lt;/li&gt;
-&lt;li&gt;The template being used to display this post on its own like this is in &lt;code&gt;/themes/hugotestsite/layouts/_default/single.html&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;As we want to keep blog posts as a separate section, we put it in a subfolder: /content/blog/&lt;/li&gt;
-&lt;li&gt;Note: use &amp;lsquo;hugo new /blog/&lt;name-of-new-post&gt;.md&amp;rsquo; to create new posts in this directory&lt;/li&gt;
+&lt;li&gt;Here is a regular &#34;blog post&#34; type page. It has &lt;pre&gt;type = &#34;post&#34;&lt;/pre&gt; defined in the front-matter.&lt;/li&gt;
+&lt;li&gt;The template being used to display this post on its own like this is in: &lt;pre&gt;/themes/skeletontheme/layouts/_default/single.html&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;As we want to keep blog posts as a separate section, we put the markdown file in a subfolder: &lt;pre&gt;/content/blog/&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Note: use &lt;pre&gt;hugo new /blog/&amp;lt;name-of-new-post&amp;gt;.md&lt;/pre&gt; to create new posts in this directory&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!-- normal service is resumed! --&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt rhoncus nulla, non cursus tellus fringilla vel. Fusce porta diam vel lacus vehicula placerat. Phasellus aliquam posuere ultrices. Ut aliquet nunc velit, maximus rhoncus urna pretium id. Ut nec elit quis felis congue lobortis. Duis leo mi, tristique elementum rutrum ac, venenatis eget turpis. Nunc sollicitudin, lacus sed ultricies dapibus, erat massa sodales leo, vel mattis arcu magna ut metus. Mauris sed feugiat dolor. Mauris efficitur metus ut est vehicula, in faucibus ipsum tempus. Vivamus malesuada vestibulum leo non porttitor. Donec eros quam, maximus consequat diam molestie, elementum lacinia nisi. Vivamus lobortis at leo quis rutrum. Nunc egestas lacus a nibh sagittis, quis porta orci placerat.&lt;/p&gt;
 

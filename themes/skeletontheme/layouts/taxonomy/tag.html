@@ -6,11 +6,15 @@
 {{ partial "sitelogo" . }}
 <!-- Include our /layouts/partials/navbar.html partial -->
 {{ partial "navbar" . }}
-<h1>POSTS TAGGED WITH: {{.Title }}</h1>
+<article>
+<h1 class="pagetitle">Posts Tagged: {{.Title }}</h1>
+
+<div class="infobox">
 <ul>
 <li>This is an individual tags page. It lists all the posts having a particular tag</li>
-<li>As 'tags' are a taxonomy, the template for this page lives in '/layouts/taxonomy/tag.html'</li>
+<li>As <pre>tags</pre> are a <pre>taxonomy</pre> in Hugo parlance, the template for this page lives in <pre>/themes/skeletontheme/layouts/taxonomy/tag.html</pre></li>
 </ul>
+</div>
 
 {{ range .Data.Pages }}
 <!-- Title, as defined in the front-matter  of /content/index.md -->
@@ -21,6 +25,7 @@
 </div>
 {{ end }}
 <!-- This ends the loop started with 'range...' above -->
+</article>
 <!-- Include our /layouts/partials/footer.html partial -->
 {{ partial "footer" . }}
 {{"<!-- end layouts > index.html template //-->" | safeHTML}}

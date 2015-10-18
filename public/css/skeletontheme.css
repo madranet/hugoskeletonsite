@@ -1,0 +1,119 @@
+/*Some sensible defaults*/
+html
+{
+    /*Helvetica. the only font you'll ever need!*/
+    font-family: Helvetica, Arial, sans-serif;
+	font-size:18px;
+	line-height:1.7;
+}
+
+body
+{
+    /*Remove default margins and padding*/
+    margin:0px;
+    padding: 0px;
+}
+
+/*LINKS*/
+a,
+a:visited
+{
+    color:#0066cc;
+    text-decoration: none;
+}
+
+a:active,
+a:hover
+{
+    text-decoration: underline;
+}
+
+/*IMAGES*/
+img
+{
+    border:none;
+    /*centre images*/
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*HEADINGS*/
+h1,h2,h3,h4,h5,h6
+{
+    color:#0066cc;
+    text-align:center;
+    padding:6px;
+    font-weight:bold;
+}
+
+article
+{
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:60px;
+}
+
+/*STYLES DEFINED IN SKELETONTHEME*/
+.logo
+{
+    background-color:#000000;
+}
+
+.navbar
+{
+
+    margin:0px;
+    padding-left:30px;
+    font-size:1.5em;
+}
+
+/*main title at top of page*/
+.pagetitle
+{
+    background-color: #0066cc;
+    color:#ffffff;
+}
+
+/*post-date at top of posts*/
+.date
+{
+    text-align:right;
+    color:#999999;
+    font-style: italic;
+}
+
+/*infoboxes at top of pages*/
+.infobox
+{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    border:3px dotted #cc0000;
+    background-color: #ff9999;
+}
+
+.infobox pre
+{
+    display:inline;
+    font-family: monospace;
+    color:#333366;
+}
+
+/*tags div at foot of posts*/
+.tags
+{
+    background-color:#eeeeee;
+    padding:9px;
+}
+
+footer
+{
+    background-color: #000000;
+    font-size:0.85em;
+    color:#ffffff;
+    text-align:right;
+    /*big padding, because y'know big footers are all the rage!*/
+    padding:60px 30px 40px 60px;
+}
