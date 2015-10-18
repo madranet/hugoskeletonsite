@@ -7,9 +7,11 @@
 * What are all those directories and sub-directories for?
 * What goes where and why?
 
-This repo is intended to give complete newbies to Hugo an absolute bare-bones theme to tinker with. And when I say "bare-bones" I mean "bare-bones".  There is only the minimum needed to get the job done. That means no styling, no 'responsive design', no 'mobile-friendliness', no 'boot-strapping' just plain old *"Hey! –the 1990s called. They want their design back!"* ugliness.
+This repo is intended to give complete newbies to Hugo an absolute bare-bones theme to tinker with. ~~And when I say "bare-bones" I mean "bare-bones".  There is only the minimum needed to get the job done. That means no styling, no 'responsive design', no 'mobile-friendliness', no 'boot-strapping' just plain old *"Hey! –the 1990s called. They want their design back!"* ugliness.~~
 
-The thinking behind this is that there's nothing to distract you from what's relevant to the theme; everything in there is doing *\<something\>*. On the plus side, everything is commented to within an inch of its life and all pages will display some info about what template files are being used to produce them.
+~~The thinking behind this is that there's nothing to distract you from what's relevant to the theme; everything in there is doing *\<something\>*. On the plus side, everything is commented to within an inch of its life and all pages will display some info about what template files are being used to produce them.~~
+
+UPDATE: Out of a desire to keep your keyboards free from vomit, I've now added some basic styling to the site. So whilst it's still a 'Plain Jane', it's less likely to make you want to sandpaper your retinas to get rid of the horror they have beheld.
 
 The site produced by the theme features the following:
 
