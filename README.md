@@ -13,7 +13,7 @@ This repo is intended to give complete newbies to Hugo an absolute bare-bones th
 
 UPDATE: Out of a desire to keep your keyboards free from vomit, I've now added some basic styling to the site. So whilst it's still a 'Plain Jane', it's less likely to make you want to sandpaper your retinas to get rid of the horror they have beheld.
 
-The site produced by the theme features the following:
+The site produced by Hugo Skeleton Site's ```skeletontheme``` features the following:
 
 * A custom homepage
 * Static page
@@ -22,7 +22,7 @@ The site produced by the theme features the following:
 
 #### DISCLAIMER:
 
-As stated above, the primary purpose of Hugo Skeleton Theme is to let you pick apart a very very basic theme and see what makes it tick. There are alternative ways [sometimes better ways] to do some of the things this theme does. However, I've erred on the side of trying to keep the structure and the source code as simple and easy to decipher as possible. So please bear that in mind.
+As stated above, the primary purpose of Hugo Skeleton Site's ```skeletontheme``` is to let you pick apart a very very basic theme and see what makes it tick. There are alternative ways [sometimes better ways] to do some of the things this theme does. However, I've erred on the side of trying to keep the structure and the source code as simple and easy to decipher as possible. So please bear that in mind.
 
 #### USAGE:
 
