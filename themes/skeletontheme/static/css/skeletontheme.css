@@ -117,3 +117,13 @@ footer
     /*big padding, because y'know big footers are all the rage!*/
     padding:60px 30px 40px 60px;
 }
+
+
+/*display template code on page*/
+pre.tplcode
+{
+    diplay:inline;
+    z-index:99;
+    font-size:0.75em;
+    float:right;
+}

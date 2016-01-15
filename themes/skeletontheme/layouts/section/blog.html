@@ -6,7 +6,6 @@
 {{ partial "sitelogo" . }}
 <!-- Include our /layouts/partials/navbar.html partial -->
 {{ partial "navbar" . }}
-<article>
 <!-- TODO: Is there a more elegant way to do this? -->
 <!-- Hugo pluralises the title, as its a section. So use 'substr' to strip 'S' off the end -->
 <h1 class="pagetitle">{{ substr .Title 0 -1 }} Section</h1>
@@ -22,18 +21,17 @@
 
 <!-- loop through all pages in this 'blog' section -->
 {{ range .Data.Pages }}
+<article>
 <!-- Title, as defined in the front-matter  of /content/blog/<pagename>.md -->
 <!-- Wrap the title in a link to the actual full length article -->
 <a href="{{ .Permalink }}"><h1>{{ .Title }}</h1></a>
 <div class="content">
- <p class="date">{{ .Date.Format "Mon 02 Jan 2006" }}</p>
 <!-- Just show a summary. Not the full post -->
 {{ .Summary }} <a href="{{ .Permalink }}">[READ MORE...]</a>
 </div>
-<hr />
+</article>
 {{ end }}
 <!-- This ends the loop started with 'range...' above -->
-</article>
 <!-- Include our /layouts/partials/footer.html partial -->
 {{ partial "footer" . }}
 {{"<!-- end layouts > section > blog.html  template //-->" | safeHTML}}
