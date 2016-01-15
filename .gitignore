@@ -1,6 +1,3 @@
-#ignore system generated .DS_Store files [only required if developing on OSX]
 .DS_Store
-#ignore everything in 'DEV' directory [allows you to keep local development work in same dir. as working site]
 \ DEV/*
-#don't upload content of public dir. It is generated automatically when 'hugo' or 'hugo server' is run, anyway.
 public/

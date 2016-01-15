@@ -1,0 +1,12 @@
+# Example .gitignore file, as used by me for my particular development setup on OSX
+# Rename this file to .gitignore to use it.
+# Leave comments in or delete if you want a minimalist .gitignore
+
+#RULES
+# Ignore system generated .DS_Store files [only required if developing on OSX]
+.DS_Store
+# Ignore everything in 'DEV' directory [Allows me to keep local development work in same dir. as working site]
+\ DEV/*
+# Don't upload content of public dir. It is generated automatically when 'hugo' or 'hugo server' is run, anyway.
+# Won't someone think of the bandwidth!
+public/
