@@ -1,19 +1,21 @@
 # Hugo Skeleton Site
 
+![](https://s3-eu-west-1.amazonaws.com/madrapublic/grafix/github/hugoskeletontheme.png)
+
 #### ABOUT:
 
 [Hugo](http://gohugo.io) is a fantastic Static Site Generator. However, for those new to it, it can be difficult to get your head round how it all works. One area of potential confusion [well, it was for me, when I first dived in!] is in how themes are put together. 
 
 * What are all those directories and sub-directories for?
 * What goes where and why?
+* How do I organise my Content?
 
-This repo is intended to give complete newbies to Hugo an absolute bare-bones theme to tinker with. ~~And when I say "bare-bones" I mean "bare-bones".  There is only the minimum needed to get the job done. That means no styling, no 'responsive design', no 'mobile-friendliness', no 'boot-strapping' just plain old *"Hey! –the 1990s called. They want their design back!"* ugliness.~~
+Hugo Skeleton Site contains `skeletontheme`, which is heavily commented both via on-screen elements and within the code comments, and will help beginners get to grips with building a Hugo theme. 
 
-~~The thinking behind this is that there's nothing to distract you from what's relevant to the theme; everything in there is doing *\<something\>*. On the plus side, everything is commented to within an inch of its life and all pages will display some info about what template files are being used to produce them.~~
+![](https://s3-eu-west-1.amazonaws.com/madrapublic/grafix/github/hugoskeletonthemess.jpg)
 
-**UPDATE:** Out of a desire to keep your keyboards free from vomit, I've now added some basic styling to the site. So whilst it's still a 'Plain Jane', it's less likely to make you want to sandpaper your retinas to get rid of the horror they have beheld.
 
-The site produced by Hugo Skeleton Site's ```skeletontheme``` features the following:
+In order to keep things simple, the site produced by Hugo Skeleton Site's `skeletontheme` has a very minimalist design. It features the following er... 'features', which can sometimes confuse newcomers to Hugo:
 
 * A custom homepage
 * Static page
