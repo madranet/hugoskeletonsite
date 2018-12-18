@@ -2,6 +2,6 @@
 <footer>
 <!-- use Golang template code for current year, so we don't have to sit up on NYE -->
 <!-- editing the footer! -->
-&copy;My Super Company 2012-{{.Now.Format "2006"}}
+&copy;My Super Company 2012-{{ now.Format "2006" }}
 </footer>
 {{"<!-- end footer partial //-->" | safeHTML}}
