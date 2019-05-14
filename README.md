@@ -1,5 +1,9 @@
 # Hugo Skeleton Site
 
+
+PLEASE NOTE: THIS REPO IS NO LONGER BEING UPDATED SO THE INFORMATION HEREIN MAY BE OUTDATED AND MAY NOT APPLY TO CURRENT RELEASES OF HUGO. I NO LONGER USE HUGO.
+
+
 ![](https://s3-eu-west-1.amazonaws.com/madrapublic/grafix/github/hugoskeletontheme.png)
 
 #### ABOUT:
